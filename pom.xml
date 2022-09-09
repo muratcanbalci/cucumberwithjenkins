@@ -147,7 +147,7 @@
                                 <inputDirectory>${project.build.directory}/cucumber-json</inputDirectory>
                                 <jsonFiles>
                                     <!-- supports wildcard or name pattern -->
-                                    <param>cucumber-reports.json</param>
+                                    <param>**/*.json</param>
                                 </jsonFiles>
                                 <skippedFails>true</skippedFails>
                                 <enableFlashCharts>true</enableFlashCharts>
@@ -171,7 +171,7 @@
                             </goals>
                             <configuration>
                                 <jsonFiles>
-                                    <param>cucumber-reports.json</param>
+                                    <param>**/*.json</param>
                                 </jsonFiles>
                                 <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
                                 <inputDirectory>${project.build.directory}/cucumber</inputDirectory>
