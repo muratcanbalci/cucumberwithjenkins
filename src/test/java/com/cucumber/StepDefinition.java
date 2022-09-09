@@ -6,7 +6,7 @@ import io.cucumber.java.en.When;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class StepDefinitions {
+public class StepDefinition {
     private int x;
     private int y;
     private int sum;
@@ -31,6 +31,4 @@ public class StepDefinitions {
     public void the_value_should_be(Integer int1) {
         assertEquals(int1,sum);
     }
-
-
 }
